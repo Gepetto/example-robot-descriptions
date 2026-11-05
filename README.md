@@ -1,3 +1,7 @@
+# example-robot-descriptions is a soft fork of https://github.com/gepetto/example-robot-data
+
+without problematic licenses for ROS packaging
+
 # Example robot URDFs
 
 [![pipeline status](https://gitlab.laas.fr/gepetto/example-robot-data/badges/master/pipeline.svg)](https://gitlab.laas.fr/gepetto/example-robot-data/-/commits/master)
