@@ -99,12 +99,6 @@ class RobotTestCase(unittest.TestCase):
     def test_hyq(self):
         self.check("hyq", 19, 18)
 
-    def test_icub(self):
-        self.check("icub", 39, 38)
-
-    def test_icub_reduced(self):
-        self.check("icub_reduced", 36, 35)
-
     def test_iris(self):
         self.check("iris", 7, 6)
 
@@ -119,15 +113,6 @@ class RobotTestCase(unittest.TestCase):
 
     def test_alexander(self):
         self.check("alexander", 20, 19)
-
-    def test_alex_nub_hands(self):
-        self.check("alex_nub_hands", 19, 19)
-
-    def test_alex_psyonic_hands(self):
-        self.check("alex_psyonic_hands", 39, 39)
-
-    def test_alex_sake_hands(self):
-        self.check("alex_sake_hands", 23, 23)
 
     def test_allegro_right(self):
         self.check("allegro_right_hand", 16, 16)

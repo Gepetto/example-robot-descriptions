@@ -57,16 +57,6 @@
   <license>BSD</license>
 
   <!-- Robot descriptions for:
-        - alex_description
-  -->
-  <license>CC-BY-NC-ND-4.0</license>
-
-  <!-- Robot descriptions for:
-        - icub_description
-  -->
-  <license>CC-BY-SA-4.0</license>
-
-  <!-- Robot descriptions for:
         - cassie_description
   -->
   <license>ISC</license>

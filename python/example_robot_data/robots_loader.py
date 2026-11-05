@@ -241,17 +241,6 @@ class TiagoProLoader(RobotLoader):
     urdf_filename = "tiago_pro.urdf"
 
 
-class ICubLoader(RobotLoader):
-    path = "icub_description"
-    urdf_filename = "icub.urdf"
-    srdf_filename = "icub.srdf"
-    free_flyer = True
-
-
-class ICubReducedLoader(ICubLoader):
-    urdf_filename = "icub_reduced.urdf"
-
-
 class AlexanderLoader(RobotLoader):
     path = "alexander_description"
     urdf_filename = "alexander_v1.lowerBodyOnly.urdf"
@@ -259,29 +248,6 @@ class AlexanderLoader(RobotLoader):
     free_flyer = True
     ref_posture = "default"
     srdf_filename = "alexander.srdf"
-
-
-class AlexNubHandsLoader(RobotLoader):
-    path = "alex_description"
-    urdf_filename = "alex_nub_hands.urdf"
-    urdf_subpath = "urdf"
-    ref_posture = "default"
-
-
-class AlexPsyonicHandsLoader(RobotLoader):
-    path = "alex_description"
-    urdf_filename = "alex_psyonic_hands.urdf"
-    urdf_subpath = "urdf"
-    srdf_filename = "alex_psyonic_hands.srdf"
-    ref_posture = "default"
-
-
-class AlexSakeHandsLoader(RobotLoader):
-    path = "alex_description"
-    urdf_filename = "alex_sake_hands.urdf"
-    urdf_subpath = "urdf"
-    srdf_filename = "alex_sake_hands.srdf"
-    ref_posture = "default"
 
 
 class AllegroRightHandLoader(RobotLoader):
@@ -451,17 +417,12 @@ ROBOTS = {
     "hextilt": HextiltLoader,
     "human": HumanLoader,
     "hyq": HyQLoader,
-    "icub": ICubLoader,
-    "icub_reduced": ICubReducedLoader,
     "iris": IrisLoader,
     "kinova": KinovaLoader,
     "laikago": LaikagoLoader,
     "panda": PandaLoader,
     "panda_collision": PandaLoaderCollision,
     "alexander": AlexanderLoader,
-    "alex_nub_hands": AlexNubHandsLoader,
-    "alex_psyonic_hands": AlexPsyonicHandsLoader,
-    "alex_sake_hands": AlexSakeHandsLoader,
     "allegro_right_hand": AllegroRightHandLoader,
     "allegro_left_hand": AllegroLeftHandLoader,
     "quadruped": QuadrupedLoader,
